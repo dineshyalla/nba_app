@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './layout.css'
 import Header from '../../components/Header/header';
+import Footer from '../../components/Footer/footer';
+
 class Layout extends Component{
 
     state = {
@@ -20,7 +22,7 @@ class Layout extends Component{
                     onShowNav = {() => (this.toggleNav(true))}
                 />
                 <div>{this.props.children}</div>
-                Footer
+                <Footer/>
             </React.Fragment>
             
         )

@@ -6,8 +6,9 @@ react-simple-sidenav
 react-slick - Slider
 
 ## Documentation
-App component will haves routes defined using react-router. 
-Layout is a HOC defined inside Routes which contains the header, footer section.
+->App component will haves routes defined using react-router. 
+->Layout is a HOC defined inside Routes which contains the Header, Footer section.
+->Uses JSON-SERVER for providing rest apis
 
 ### `npm test`
 
